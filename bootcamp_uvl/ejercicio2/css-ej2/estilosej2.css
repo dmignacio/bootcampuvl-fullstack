@@ -1,0 +1,112 @@
+h1 {
+    color:#698593;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+body {
+
+background-color: #273238;
+user-select: none;
+
+}
+
+p {
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+    justify-content: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif
+    
+}
+
+
+h2{
+    font-size: 25px;
+color: #eacfc3;
+letter-spacing: 2px;
+font-style: italic;
+font-family: - Impact, Charcoal, sans-serif
+
+}
+
+
+
+h3{
+    font-size: 25px;
+color: #a1c1cb;
+letter-spacing: 2px;
+font-style: italic;
+font-family: - Impact, Charcoal, sans-serif
+
+}
+
+h4{
+    font-size: 25px;
+color: #bcbdbf;
+letter-spacing: 2px;
+font-style: italic;
+font-family: - Impact, Charcoal, sans-serif
+
+}
+
+h5{
+    font-size: 25px;
+color: #8d94a1;
+letter-spacing: 2px;
+font-style: italic;
+font-family: - Impact, Charcoal, sans-serif
+
+}
+
+h6{
+    font-size: 25px;
+color:#b2b2aaa1;
+letter-spacing: 2px;
+font-style: italic;
+font-family: - Impact, Charcoal, sans-serif
+
+}
+
+#a1{
+/*  le damos el marco a la imagen */
+
+    padding: 1px;
+    border: 5px solid #e6cbbf;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+#c2{
+    padding: 1px;
+    border: 5px solid #a1c1cb;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+#c3{
+    padding: 1px;
+    border: 5px solid #bcbdbf;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+#h{
+    padding: 1px;
+    border: 5px solid #8d94a1;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+#t{
+    padding: 1px;
+    border: 5px solid #b2b2aa;
+    border-radius: 5px;
+    margin-left: 35px;
+}
