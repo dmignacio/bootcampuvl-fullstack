@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h2><u><i> ingrese sus datos </i> </u> </h2>
+    <br>
+
+    <!-- boton de accion  -->
+
+    <!-- <form action="" method="post"> sirve para enviar en  http encriptado --> 
+    <!-- <form action="" method="get"> -->
+    
+    <form action="https://postman-echo.com/get" method="get">
+
+    <!-- campo nombre -->
+
+    <label for="nombre"> Nombre </label><br>
+        <input 
+        id="nombre" 
+        type="text" 
+        name="nombre" 
+        placeholder="ingrese su nombre"
+        required 
+        minlength="3"
+        maxlength="15"
+
+        >
+    
+    <br><br>
+
+    <!-- campo apellido -->
+
+    <label for="">Apellido <br>
+        <input 
+            type="text" 
+            name="Apellido" 
+            placeholder="ingrese su Apellido" 
+            required ></label><br><br>
+
+            
+    <!-- campo edad  -->
+    <label for="for">Edad</label><br>
+        <input 
+        id="edad" 
+        type="number"
+        placeholder="Ingrese su edad"
+        required 
+        min="18"
+        max="100"
+     ><br><br>
+
+
+<!-- campo genero -->
+
+<input type="radio" name="genero" value="femenino">
+<input type="radio" name="genero" value="masculino ">
+<input type="radio" name="genero" value="otros">
+
+
+
+<!--  email -->
+    
+
+    <label for="email">Email</label><br>
+    <input 
+        id="email"
+        type="email" 
+        placeholder="Ingrese su email"
+        required 
+        
+        ><br><br>
+
+
+    <!-- pasword  -->
+    <label for="pasword">Contraseña</label><br>
+    <input 
+        id="pasword" 
+        type="password" 
+        placeholder="pasword"
+        required ><br><br>
+
+
+
+    <!-- boton de envio-->
+
+    <br>
+
+    <input type="submit" value="ENVIAR INFORMACION">
+
+
+
+
+
+
+</form>
+</body>
+</html>
