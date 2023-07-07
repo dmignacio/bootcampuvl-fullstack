@@ -1,0 +1,108 @@
+body{
+font-family: 'Courier New', Courier, monospace;
+
+text-shadow: -1px 1px 3px black ;
+
+/* border: 1px solid magenta; */
+
+box-shadow: 2px 2px 3px white;
+
+padding: 10px;
+
+background-color: rgb(34, 124, 120);
+
+
+
+}
+
+.contenedor-ppal{
+
+/* border: 1px solid magenta; */
+width: 75%;
+background-color: rgb(34, 124, 120);
+border-radius: 10px;
+
+}
+
+.titulo {
+
+text-align: center;
+color: white;
+font-size: 36px;
+color: rgb(34, 124, 120);
+margin-bottom: 30px;
+
+}
+
+p{
+
+    margin: 0%;
+
+}
+
+.contenedor-input{
+
+
+    width: 80%;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px;
+
+
+}
+
+label{
+
+    display: block;
+    color: aquamarine;
+    
+}
+
+.contenedor-boton{
+
+    width: 90%;
+/*     border: 1px solid white;*/
+
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+   
+
+    
+}
+
+input{
+
+
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #62aa6a;
+    background-color: #95afc0;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 0 2px 5px;
+
+
+}
+
+input[type="sumint"]{
+
+
+
+
+
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #62aa6a;
+    background-color: #95afc0;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 0 2px 5px;
+}

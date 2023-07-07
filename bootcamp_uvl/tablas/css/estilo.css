@@ -1,0 +1,28 @@
+table,th,tr,td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th,td{
+padding: 5px 10px;
+
+}
+
+#solapa-v{
+background-color: blueviolet;
+
+
+}
+
+.col-impar{
+
+    background-color: aqua;
+}
+
+
+.col-par{
+
+    background-color: rgb(207, 75, 102);
+}
