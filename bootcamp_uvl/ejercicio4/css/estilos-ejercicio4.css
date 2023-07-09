@@ -1,0 +1,68 @@
+body{
+
+
+background-color: #1f2023;
+
+}
+
+
+.contenedor-ppal{
+
+ background-color: #1f2023;
+    /* border: 1px solid magenta; */
+ padding: 10px
+
+
+}
+
+
+.titulo {
+
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border: 7px solid #4d6d63;
+    border-left: none;
+    border-right: none;
+
+    
+   
+    }
+
+.datos-personales {
+  
+background-color:#2b3d37 ;
+margin-left:50px ;
+border-radius: 3px;
+width: 100px;
+height: 20px;
+align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+
+.titulo-datos{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 9px;
+text-align: center;
+
+}
+
+.contenedor-input{
+
+font-size: 10px;
+    width: 50%;
+    /* border: 1px solid white; */
+    margin:  auto;
+    text-align: center;
+    padding: 8px;
+
+
+}
+
